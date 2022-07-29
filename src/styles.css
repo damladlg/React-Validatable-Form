@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Error {
+  color: red;
+}
+
+.inputError,
+.inputError:focus {
+  border-color: red;
+  outline-color: red;
+}
+
+.inputNormal,
+.inputNormal:focus {
+  border-color: green;
+}
+
+.customErrorFocus,
+.customErrorFocus:focus {
+  border-color: blue !important;
+  outline-color: blue !important;
+}
